@@ -8,6 +8,7 @@ public class dayName {
         System.out.println("Enter the number of the day of the week:");
         day = s.nextInt();
         System.out.println("Day of the week: " + getName(day));
+        s.close();
     }
 
     public static String getName(int dayNum){
@@ -35,6 +36,7 @@ public class dayName {
         else{
             return "Invalid Number";
         }
+    
 
     }
 

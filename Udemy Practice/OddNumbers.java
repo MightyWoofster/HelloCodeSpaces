@@ -15,5 +15,6 @@ public class OddNumbers {
         for(num1+=2; num1 < num2 ; num1+=2){
             System.out.print(num1+ ", ");
         }
+        input.close();
     }
 }
